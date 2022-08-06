@@ -2,6 +2,8 @@
 C# console Tic Tac Toe.
 
 If you want the code to fit to your C# IDE then copy only the code within:
-```
-Class Program
+```cs
+class Program
+{
+}
 ```
