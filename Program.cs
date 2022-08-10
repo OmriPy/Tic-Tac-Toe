@@ -111,8 +111,7 @@ namespace TicTacToe
                 }
                 if (WhoWon(TicTacToe) == ' ') Console.WriteLine("It's a Tie!");
                 Console.Write("\nDo you want to keep playing?\nY/N:\t");
-                keepPlaying = Console.ReadLine();
-                keepPlaying = keepPlaying.ToUpper();
+                keepPlaying = Console.ReadLine().ToUpper();
             }
             while ((keepPlaying == "Y" || keepPlaying == "YES") && (keepPlaying != "N" || keepPlaying != "NO")); // Each game.
         }
